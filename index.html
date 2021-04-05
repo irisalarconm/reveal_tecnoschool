@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>TecnoSchool</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css" id="theme">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+		<style>
+			body{
+				background-color: #0084e4;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section><h1>TecnoSchool</h1></section>
+				<section>Gestión Educativa Virtual</section>
+				<section>
+					<h2>Integrantes</h2>
+					<p>Nader Montenegro</p>
+					<p>Cristian Roa</p>
+					<p>Johan Celis</p>
+					<p>Iris Alarcón</p>
+				</section>
+				<section>
+					<h3>Objetivo General</h3>
+					<p>Permitir la comunicación entre profesores, estudiantes y padres de familia, a través de un 
+						sistema de información exclusivo para uso educativo, en el cual tanto docentes como 
+						estudiantes y padres de familia tendrán la posibilidad de compartir archivos, mensajes, 
+						calendarios, tareas, trabajos, encuestas, entre otras actividades propias 
+						de la malla académica, además de poder participar en foros y clases virtuales.
+					</p>
+				</section>
+				<section>
+					<h3>Objetivos Especificos</h3>
+					<ul>
+						<li>Integrar los módulos de la gestión educativa (Docentes, Estudiantes, Actividades y 
+							Eventos, Historia Académica, Calificaciones, Disciplina y Comportamientos, Horarios de Clase, etc)
+							para la correcta ejecución y desarrollo del aplicativo facilitando los procesos de aprendizaje.</li>
+						<li>Implementar herramientas de capacitación a la comunidad educativa para utilizar efectivamente 
+							la herramienta tecnológica “Tecnoschool”, con el fin de mejorar los procesos educativos virtuales.</li>
+					</ul>
+				</section>
+				<section>
+					<ul>
+						<li>Caracterizar los procesos de aprendizaje de los estudiantes para fortalecer el uso de estrategias pedagógicas innovadoras.</li>
+						<li>Evaluar el impacto de la herramienta tecnológica tanto en profesores como también en estudiantes durante los periodos de implementación</li>
+					</ul>
+				</section>
+				<section>
+					<h3>Diagrama de Procesos</h3>
+					<iframe src = "./images/procesos.pdf" width = "1000" height="600"></iframe>
+				</section>
+				<section>
+					<h3>Caso de Usos</h3>
+					<img src ="./images/caso_uso.png" width="1000" height="600">	
+				</section>
+				<section>
+					<h3>Caso de Usos Extendido</h3>
+					<img src ="./images/caso_ext1.png" width="1000" height="600">	
+				</section>
+				<section>
+					<img src ="./images/caso_ext2.png" width="1000" height="600">	
+				</section>
+				<section>
+					<h3>Diagrama de Clases</h3>
+					<img src ="./images/d_clases.jpeg" width="1000" height="600">	
+				</section>
+				<section>
+					<h3>Modelo Entidad de Relación</h3>
+					<img src ="./images/relacion.png" width="1000" height="600">	
+				</section>
+				<section>
+					<h3>Diagrama de Distribución</h3>
+					<img src="./images/d_distribucion.png">
+				</section>
+				<section>
+					<h3>Cronograma</h3>
+					<iframe src="./images/gantt.pdf" width="1000" height="600"></iframe>
+				</section>
+				<section>
+					<h3>Presupuesto</h3>
+					<iframe src="./images/presupuesto.pdf" width="1000" height="600"></iframe>
+				</section>
+				<section>
+					<h3>Diccionario de Datos</h3>
+					<iframe src="./images/diccionario.pdf" width="1000" height="600"></iframe>
+				</section>
+				<section>
+					<h1>GRACIAS</h1>
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
